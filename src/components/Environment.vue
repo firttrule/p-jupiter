@@ -15,7 +15,7 @@
     </div>
 
     <div>
-      <img src="../assets/env.png" alt="" />
+      <img src="@/assets/env.png" alt="" />
     </div>
   </div>
 </template>
@@ -31,6 +31,4 @@
   align-items: start;
   margin-bottom: 40px;
 }
-
-
 </style>
