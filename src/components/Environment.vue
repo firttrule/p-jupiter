@@ -1,0 +1,29 @@
+<template>
+  <div class="main">
+    <h2 class="h2">Окружение</h2>
+    <div class="wrapper">
+      <p class="text">ЦАО Пресненский район, ул. Климашкина, 16</p>
+      <p class="text">
+        Идеальное расположение в тихом переулке обеспечивает ощущение клубности
+        и приватности владельцам дома Manhattan.
+      </p>
+      <p class="text">
+        Москва-Сити, Центр международной торговли, известные театры, музеи,
+        лучшие рестораны - центр Москвы - центр притяжения успеха, вдохновения и
+        силы.
+      </p>
+    </div>
+  </div>
+</template>
+
+<script setup></script>
+
+<style lang="scss" scoped>
+.text{
+    max-width: 360px;
+}
+
+.wrapper{
+    align-items: start;
+}
+</style>
