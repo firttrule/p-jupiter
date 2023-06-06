@@ -22,11 +22,7 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-.wrapper {
-  margin-bottom: 180px;
-
-  &_content {
-    max-width: 570px;
-  }
+.wrapper_content {
+  max-width: 570px;
 }
 </style>

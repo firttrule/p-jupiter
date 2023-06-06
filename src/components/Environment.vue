@@ -13,17 +13,24 @@
         силы.
       </p>
     </div>
+
+    <div>
+      <img src="../assets/env.png" alt="" />
+    </div>
   </div>
 </template>
 
 <script setup></script>
 
 <style lang="scss" scoped>
-.text{
-    max-width: 360px;
+.text {
+  max-width: 360px;
 }
 
-.wrapper{
-    align-items: start;
+.wrapper {
+  align-items: start;
+  margin-bottom: 40px;
 }
+
+
 </style>
