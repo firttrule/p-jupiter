@@ -18,11 +18,32 @@
   line-height: 130%;
 }
 
+.btn-text {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.btn {
+  width: 320px;
+  height: 58px;
+  background: #282828;
+}
+
 .h2 {
   margin-bottom: 40px;
   font-weight: 600;
   font-size: 40px;
   line-height: 110%;
+}
+
+.h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  opacity: 0.3;
+  margin-bottom: 10px;
 }
 
 .wrapper {
