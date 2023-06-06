@@ -29,6 +29,14 @@
   width: 320px;
   height: 58px;
   background: #282828;
+  border: none;
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 100%;
+  color: #ffffff;
 }
 
 .h2 {
@@ -56,5 +64,13 @@
 .main {
   max-width: 1200px;
   margin: 0 auto 180px;
+}
+
+.link-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none;
 }
 </style>
