@@ -1,16 +1,24 @@
 <template>
   <div class="back">
     <div class="main">
-      <div>
-        <div><h3 class="h3">Записаться на просмотр</h3></div>
-        <div>
-          <form action="" style="display: flex; flex-direction: column">
-            <input type="text" placeholder="Имя" />
-            <input type="text" placeholder="Телефон" />
-            <input type="checkbox" />
-            <button type="submit" class="btn-text btn">Оставить заявку</button>
-          </form>
-        </div>
+      <div class="wrapper" style="border-bottom: 1px solid #909090; margin-bottom: 25px; justify-content: start">
+        <h3 class="h3" style="margin-right: 320px;">Записаться на просмотр</h3>
+        <form action="" style="display: flex; flex-direction: column; gap: 40px; margin-bottom: 80px; width: 420px;">
+          <div style="display: flex; flex-direction: column; gap: 20px">
+            <input type="text" class="input-text input" placeholder="Имя" />
+            <input type="text" class="input-text input" placeholder="Телефон" />
+          </div>
+
+          <div style="display: flex;">
+            <input id="toggle" type="checkbox" class="checkbox" style="margin-right: 10px" />
+            <label for="toggle" class="label-text">
+              Даю согласие на обработку
+              <a href="#" class="label-text" style="color: #ffffff">Персональных данных</a>
+            </label>
+          </div>
+
+          <button type="submit" class="btn-text btn">Оставить заявку</button>
+        </form>
       </div>
 
       <div class="wrapper">
@@ -38,6 +46,7 @@
 
 .wrapper {
   gap: 18px;
+  align-items: start;
 }
 
 .h3 {
@@ -52,5 +61,38 @@
 
 .btn-text {
   color: #282828;
+}
+
+.main {
+  padding: 80px 0;
+  margin-bottom: 0;
+}
+
+.label-text {
+  font-size: 14px;
+  line-height: 140%;
+  color: #909090;
+}
+
+.input {
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #909090;
+}
+
+.input-text {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #909090;
+  padding: 17px 0px 10px;
+}
+
+.checkbox {
+  border: 1px solid #909090;
+  width: 20px;
+  height: 20px;
 }
 </style>
