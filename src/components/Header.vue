@@ -23,6 +23,7 @@
   font-size: 42px;
   line-height: 110%;
   color: #ffffff;
+  height: 50px;
 }
 
 .main {

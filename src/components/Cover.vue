@@ -30,6 +30,7 @@ import Header from "./Header.vue";
 .btn {
   background: #ffffff;
   margin-bottom: 283px;
+  height: 62px;
 }
 
 .btn-text {
@@ -50,5 +51,9 @@ import Header from "./Header.vue";
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.main {
+  margin-bottom: 283px;
 }
 </style>
