@@ -66,7 +66,7 @@
   margin: 0 auto 180px;
 }
 
-.link-text {
+.link-title {
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
