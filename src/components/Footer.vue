@@ -3,7 +3,7 @@
     <div class="main">
       <div class="wrapper" style="border-bottom: 1px solid #909090; margin-bottom: 25px; justify-content: start">
         <h3 class="h3" style="margin-right: 320px;">Записаться на просмотр</h3>
-        <form action="" style="display: flex; flex-direction: column; gap: 40px; margin-bottom: 80px; width: 420px;">
+        <form id="form" action="" style="display: flex; flex-direction: column; gap: 40px; margin-bottom: 80px; width: 420px;">
           <div style="display: flex; flex-direction: column; gap: 20px">
             <input type="text" class="input-text input" placeholder="Имя" />
             <input type="text" class="input-text input" placeholder="Телефон" />
