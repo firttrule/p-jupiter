@@ -30,6 +30,7 @@
   height: 58px;
   background: #282828;
   border: none;
+  cursor: pointer;
 }
 
 .h1 {
