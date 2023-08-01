@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div id="proposals" class="main">
     <h2 class="h2">Предложения</h2>
     <div class="wrapper" style="margin-bottom: 40px">
       <img src="@/assets/proposals1.png" alt="" />
@@ -10,7 +10,7 @@
           различной площади от 35 до 80 м2, жителям каждого из которых
           гарантирована максимальная приватность и комфорт.
         </p>
-        <button class="btn-text btn">Записаться на просмотр</button>
+        <button class="btn"><a class="btn-text" href="#form">Записаться на просмотр</a></button>
       </div>
     </div>
     <div class="wrapper">
@@ -21,7 +21,7 @@
           распоряжении их жителей: высокие полотки 5,5 метров, свободная
           планировка для создания стильного, торжественного интерьера.
         </p>
-        <button class="btn-text btn">Записаться на просмотр</button>
+        <button class="btn"><a class="btn-text" href="#form">Записаться на просмотр</a></button>
       </div>
       <img src="@/assets/proposals2.png" alt="" />
     </div>

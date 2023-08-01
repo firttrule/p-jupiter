@@ -1,5 +1,9 @@
 <template>
-  <router-view />
+  <router-view v-slot="{ Component }">
+    <keep-alive>
+      <component :is="Component" />
+    </keep-alive>
+  </router-view>
 </template>
 
 <style lang="scss">
@@ -23,6 +27,7 @@
   font-size: 17px;
   line-height: 140%;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .btn {

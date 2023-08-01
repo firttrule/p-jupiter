@@ -6,6 +6,24 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+    children: [
+      {
+        path: "/form",
+        component: () => import("../components/Footer.vue"),
+      },
+      {
+        path: "/environment",
+        component: () => import("../components/Environment.vue")
+      },
+      {
+        path: "/proposals",
+        component: () => import("../components/Proposals.vue")
+      },
+      {
+        path: "/params",
+        component: () => import("../components/TechnicalParameters.vue")
+      }
+    ],
   },
 ];
 

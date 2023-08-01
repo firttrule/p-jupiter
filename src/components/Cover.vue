@@ -10,7 +10,7 @@
           космического пространства, спокойствия и уединения в окружении
           элегантных интерьеров.
         </p>
-        <button class="btn-text btn"><a href="#form">Записаться на просмотр</a></button>
+        <button class="btn"><a class="btn-text" href="#form">Записаться на просмотр</a></button>
       </div>
     </div>
   </div>

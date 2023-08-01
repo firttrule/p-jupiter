@@ -3,9 +3,9 @@
     <div class="wrapper">
       <div class="logo">Jupiter</div>
       <div class="wrapper">
-        <a href="#" class="link-title">Окружение</a>
-        <a href="#" class="link-title">Предложения</a>
-        <a href="#" class="link-title">Технические характеристики</a>
+        <a href="#environment" class="link-title">Окружение</a>
+        <a href="#proposals" class="link-title">Предложения</a>
+        <a href="#params" class="link-title">Технические характеристики</a>
       </div>
     </div>
   </div>

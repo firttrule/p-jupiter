@@ -1,5 +1,5 @@
 <template>
-    <div class="main">
+    <div id="params" class="main">
         <h2 class="h2 border">Технические характеристики</h2>
         <div class="box border">
             <h3 class="h3 content">Сервис</h3>
