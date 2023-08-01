@@ -88,6 +88,11 @@
   text-transform: uppercase;
   color: #909090;
   padding: 17px 0px 10px;
+  transition: 0.3s;
+}
+
+.input-text:focus {
+  padding-left: 10px;
 }
 
 .checkbox {
