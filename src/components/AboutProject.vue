@@ -25,4 +25,8 @@
 .wrapper_content {
   max-width: 570px;
 }
+
+.main {
+  margin-bottom: 140px;
+}
 </style>

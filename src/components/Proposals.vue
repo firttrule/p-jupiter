@@ -1,6 +1,6 @@
 <template>
   <div id="proposals" class="main">
-    <h2 class="h2">Предложения</h2>
+    <h2 class="h2" style="padding-top: 40px;">Предложения</h2>
     <div class="wrapper" style="margin-bottom: 40px">
       <img src="@/assets/proposals1.png" alt="" />
       <div>

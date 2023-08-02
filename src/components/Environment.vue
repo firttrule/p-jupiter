@@ -1,6 +1,6 @@
 <template>
   <div id="environment" class="main">
-    <h2 class="h2">Окружение</h2>
+    <h2 class="h2" style="padding-top: 40px;">Окружение</h2>
     <div class="wrapper">
       <p class="text">ЦАО Пресненский район, ул. Климашкина, 16</p>
       <p class="text">

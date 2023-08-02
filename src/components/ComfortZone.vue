@@ -30,7 +30,7 @@
         </div>
 
         <div style="text-align: center;">
-            <p class="text" style="margin-bottom: 180px;">{{ counter }} / 4</p>
+            <p class="text" style="margin-bottom: 140px;">{{ counter }} / 4</p>
         </div>
     </div>
 </template>

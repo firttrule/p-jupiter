@@ -23,4 +23,8 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.main {
+  margin-bottom: 140px;
+}
+</style>
