@@ -14,6 +14,7 @@
   padding: 0;
   font-family: "Inter", sans-serif;
   color: #282828;
+  scroll-behavior: smooth;
 }
 
 .text {
